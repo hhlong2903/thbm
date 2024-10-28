@@ -1,0 +1,11 @@
+D:\bm httt\THBaoMat\THBaoMat\bin\Debug\THBaoMat.exe.config
+D:\bm httt\THBaoMat\THBaoMat\obj\Debug\THBaoMat.csprojResolveAssemblyReference.cache
+D:\bm httt\THBaoMat\THBaoMat\obj\Debug\THBaoMat.Dangnhap.resources
+D:\bm httt\THBaoMat\THBaoMat\obj\Debug\THBaoMat.HocVien.resources
+D:\bm httt\THBaoMat\THBaoMat\obj\Debug\THBaoMat.Properties.Resources.resources
+D:\bm httt\THBaoMat\THBaoMat\obj\Debug\THBaoMat.csproj.GenerateResource.Cache
+D:\bm httt\THBaoMat\THBaoMat\bin\Debug\THBaoMat.exe
+D:\bm httt\THBaoMat\THBaoMat\bin\Debug\THBaoMat.pdb
+D:\bm httt\THBaoMat\THBaoMat\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\bm httt\THBaoMat\THBaoMat\obj\Debug\THBaoMat.exe
+D:\bm httt\THBaoMat\THBaoMat\obj\Debug\THBaoMat.pdb
