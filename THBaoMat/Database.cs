@@ -51,14 +51,6 @@ namespace THBaoMat
             }
         }
 
-        public static OracleConnection Get_Connect()
-        {
-            if (Conn == null)
-            {
-                Connect();
-            }
-            return Conn;
-        }
 
 
         //kết nối tài khoản manager
@@ -139,6 +131,29 @@ namespace THBaoMat
             }
         }
 
+        public static OracleConnection Get_Connect()
+        {
+            if (Conn == null)
+            {
+                Connect();
+            }
+
+            if (Conn.State != System.Data.ConnectionState.Open)
+            {
+                Conn.Open();
+            }
+
+            return Conn;
+        }
+
+        public static void Close_Connect()
+        {
+            if (Conn != null && Conn.State == System.Data.ConnectionState.Open)
+            {
+                Conn.Close();
+                Conn = null; // Đảm bảo tài nguyên được giải phóng
+            }
+        }
 
         //Đăng xuất
         public static void Logout(string username)

@@ -23,3 +23,20 @@ D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.exe
 D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.pdb
 D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.Main.resources
 D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.DangKy.resources
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\bin\Debug\THBaoMat.exe.config
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\bin\Debug\THBaoMat.exe
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\bin\Debug\THBaoMat.pdb
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.AssemblyReference.cache
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.DangKy.resources
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.Dangnhap.resources
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.Main.resources
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.Properties.Resources.resources
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.GenerateResource.cache
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.CoreCompileInputs.cache
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.CopyComplete
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.exe
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.pdb
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaCong.resources
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaNhan.resources
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.SoNghichDao.resources

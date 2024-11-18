@@ -31,5 +31,17 @@ namespace THBaoMat
                 Close();
             }
         }
+
+        private void btn_cong_Click(object sender, EventArgs e)
+        {
+            MaHoaCong mh = new MaHoaCong();
+            mh.Show();
+        }
+
+        private void btn_nhan_Click(object sender, EventArgs e)
+        {
+            MaHoaNhan mh = new MaHoaNhan();
+            mh.Show();
+        }
     }
 }
