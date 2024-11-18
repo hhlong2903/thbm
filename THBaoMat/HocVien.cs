@@ -43,5 +43,10 @@ namespace THBaoMat
         {
             LoadData();
         }
+
+        private void dgv_hocvien_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

@@ -9,3 +9,16 @@ D:\bm httt\THBaoMat\THBaoMat\bin\Debug\THBaoMat.pdb
 D:\bm httt\THBaoMat\THBaoMat\bin\Debug\Oracle.ManagedDataAccess.dll
 D:\bm httt\THBaoMat\THBaoMat\obj\Debug\THBaoMat.exe
 D:\bm httt\THBaoMat\THBaoMat\obj\Debug\THBaoMat.pdb
+D:\Oracle\thbm\THBaoMat\bin\Debug\THBaoMat.exe.config
+D:\Oracle\thbm\THBaoMat\bin\Debug\THBaoMat.exe
+D:\Oracle\thbm\THBaoMat\bin\Debug\THBaoMat.pdb
+D:\Oracle\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.AssemblyReference.cache
+D:\Oracle\thbm\THBaoMat\obj\Debug\THBaoMat.Dangnhap.resources
+D:\Oracle\thbm\THBaoMat\obj\Debug\THBaoMat.HocVien.resources
+D:\Oracle\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaCong.resources
+D:\Oracle\thbm\THBaoMat\obj\Debug\THBaoMat.Properties.Resources.resources
+D:\Oracle\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.GenerateResource.cache
+D:\Oracle\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.CoreCompileInputs.cache
+D:\Oracle\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.CopyComplete
+D:\Oracle\thbm\THBaoMat\obj\Debug\THBaoMat.exe
+D:\Oracle\thbm\THBaoMat\obj\Debug\THBaoMat.pdb

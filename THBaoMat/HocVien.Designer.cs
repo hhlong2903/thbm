@@ -37,9 +37,11 @@
             this.dgv_hocvien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_hocvien.Location = new System.Drawing.Point(12, 12);
             this.dgv_hocvien.Name = "dgv_hocvien";
+            this.dgv_hocvien.RowHeadersWidth = 51;
             this.dgv_hocvien.RowTemplate.Height = 24;
             this.dgv_hocvien.Size = new System.Drawing.Size(787, 448);
             this.dgv_hocvien.TabIndex = 1;
+            this.dgv_hocvien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_hocvien_CellContentClick);
             // 
             // HocVien
             // 
