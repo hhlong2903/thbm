@@ -33,11 +33,12 @@
             this.txt_Username = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnRegister = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_login
             // 
-            this.btn_login.Location = new System.Drawing.Point(304, 275);
+            this.btn_login.Location = new System.Drawing.Point(274, 273);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(116, 34);
             this.btn_login.TabIndex = 9;
@@ -47,7 +48,7 @@
             // 
             // txt_Password
             // 
-            this.txt_Password.Location = new System.Drawing.Point(247, 152);
+            this.txt_Password.Location = new System.Drawing.Point(218, 152);
             this.txt_Password.Name = "txt_Password";
             this.txt_Password.Size = new System.Drawing.Size(318, 22);
             this.txt_Password.TabIndex = 8;
@@ -55,7 +56,7 @@
             // 
             // txt_Username
             // 
-            this.txt_Username.Location = new System.Drawing.Point(247, 82);
+            this.txt_Username.Location = new System.Drawing.Point(218, 82);
             this.txt_Username.Name = "txt_Username";
             this.txt_Username.Size = new System.Drawing.Size(318, 22);
             this.txt_Username.TabIndex = 7;
@@ -65,7 +66,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(100, 152);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 17);
+            this.label2.Size = new System.Drawing.Size(67, 16);
             this.label2.TabIndex = 6;
             this.label2.Text = "Password";
             // 
@@ -74,15 +75,25 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(97, 88);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 17);
+            this.label1.Size = new System.Drawing.Size(73, 16);
             this.label1.TabIndex = 5;
             this.label1.Text = "UserName";
+            // 
+            // btnRegister
+            // 
+            this.btnRegister.Location = new System.Drawing.Point(274, 337);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(116, 34);
+            this.btnRegister.TabIndex = 10;
+            this.btnRegister.Text = "Register";
+            this.btnRegister.UseVisualStyleBackColor = true;
             // 
             // Dangnhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(662, 390);
+            this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.txt_Password);
             this.Controls.Add(this.txt_Username);
@@ -102,6 +113,6 @@
         private System.Windows.Forms.TextBox txt_Username;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-
+        private System.Windows.Forms.Button btnRegister;
     }
 }
