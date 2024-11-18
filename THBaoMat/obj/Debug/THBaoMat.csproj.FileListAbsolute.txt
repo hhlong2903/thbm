@@ -9,3 +9,17 @@ D:\bm httt\THBaoMat\THBaoMat\bin\Debug\THBaoMat.pdb
 D:\bm httt\THBaoMat\THBaoMat\bin\Debug\Oracle.ManagedDataAccess.dll
 D:\bm httt\THBaoMat\THBaoMat\obj\Debug\THBaoMat.exe
 D:\bm httt\THBaoMat\THBaoMat\obj\Debug\THBaoMat.pdb
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\bin\Debug\THBaoMat.exe.config
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\bin\Debug\THBaoMat.exe
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\bin\Debug\THBaoMat.pdb
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.AssemblyReference.cache
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.Dangnhap.resources
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.HocVien.resources
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.Properties.Resources.resources
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.GenerateResource.cache
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.CoreCompileInputs.cache
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.Up2Date
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.exe
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.pdb
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.Main.resources
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.DangKy.resources
