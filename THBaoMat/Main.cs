@@ -12,18 +12,27 @@ namespace THBaoMat
 {
     public partial class Main : Form
     {
+        public Form currentFormChild;
+
+        public Label lb_time;
         public Main()
         {
             InitializeComponent();
+            ShowSanpham();
+            lb_time = new Label();
+            lb_time.Location = new Point(10, 10);
+            lb_time.Size = new Size(300, 30);
+            this.Controls.Add(lb_time);
+        }
+
+        private void ShowSanpham()
+        {
+            openChildForm(new Sanpham());
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show(
-        "Bạn có chắc chắn muốn đăng xuất không?",
-        "Xác nhận",
-        MessageBoxButtons.YesNo,
-        MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn đăng xuất không?","Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
             {
@@ -34,14 +43,33 @@ namespace THBaoMat
 
         private void btn_cong_Click(object sender, EventArgs e)
         {
-            MaHoaCong mh = new MaHoaCong();
-            mh.Show();
+            openChildForm(new MaHoaCong());
         }
 
         private void btn_nhan_Click(object sender, EventArgs e)
         {
-            MaHoaNhan mh = new MaHoaNhan();
-            mh.Show();
+            openChildForm(new MaHoaNhan());
+        }
+
+        private void btnSanPham_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Sanpham());
+        }
+
+        public void openChildForm(Form childForm)
+        {
+            if (currentFormChild != null)
+            {
+                currentFormChild.Close();
+            }
+
+            currentFormChild = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            content_panel.Controls.Add(childForm);
+            childForm.BringToFront();
+            childForm.Show();
         }
     }
 }
