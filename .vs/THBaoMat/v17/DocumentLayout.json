@@ -3,36 +3,76 @@
   "WorkspaceRootPath": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|d:\\y4\\hk1\\bm htttt\\th\\doan\\thbm\\thbaomat\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|d:\\y4\\hk1\\bm htttt\\th\\doan\\thbm\\thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|d:\\y4\\hk1\\bm htttt\\th\\doan\\thbm\\thbaomat\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\hocvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\hocvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|d:\\y4\\hk1\\bm htttt\\th\\doan\\thbm\\thbaomat\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\mahoacong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\mahoacong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\mahoacong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\mahoacong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\songhichdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\songhichdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\songhichdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\songhichdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\euclid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\euclid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\mahoanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\mahoanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\hocvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:thbaomat\\hocvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,35 +82,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Main.cs",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Main.cs",
               "RelativeDocumentMoniker": "THBaoMat\\Main.cs",
               "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Main.cs",
               "RelativeToolTip": "THBaoMat\\Main.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAApwBkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T12:23:29.411Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "DangKy.cs",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\DangKy.cs",
               "RelativeDocumentMoniker": "THBaoMat\\DangKy.cs",
               "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\DangKy.cs",
               "RelativeToolTip": "THBaoMat\\DangKy.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwCkAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwEEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T17:17:24.066Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Main.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\Main.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Main.cs [Design]",
+              "RelativeToolTip": "THBaoMat\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:23:01.551Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -95,76 +149,178 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Dangnhap.cs",
-              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Dangnhap.cs",
-              "RelativeDocumentMoniker": "THBaoMat\\Dangnhap.cs",
-              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Dangnhap.cs",
-              "RelativeToolTip": "THBaoMat\\Dangnhap.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwDUAAAAoAAAAAAAAAA==",
+              "Title": "Sanpham.cs [Design]",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Sanpham.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\Sanpham.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Sanpham.cs [Design]",
+              "RelativeToolTip": "THBaoMat\\Sanpham.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T18:25:35.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DangKy.cs [Design]",
-              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\DangKy.cs",
-              "RelativeDocumentMoniker": "THBaoMat\\DangKy.cs",
-              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\DangKy.cs [Design]",
-              "RelativeToolTip": "THBaoMat\\DangKy.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:16:36.793Z",
+              "WhenOpened": "2024-11-25T14:02:20.079Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HocVien.cs [Design]",
-              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\HocVien.cs",
-              "RelativeDocumentMoniker": "THBaoMat\\HocVien.cs",
-              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\HocVien.cs [Design]",
-              "RelativeToolTip": "THBaoMat\\HocVien.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T06:25:13.381Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Database.cs",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Database.cs",
               "RelativeDocumentMoniker": "THBaoMat\\Database.cs",
               "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Database.cs",
               "RelativeToolTip": "THBaoMat\\Database.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAowGQAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAALwAAAAAAAAAAAAuwL4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T05:40:04.919Z",
+              "WhenOpened": "2024-11-18T05:40:04.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sanpham.cs",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Sanpham.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\Sanpham.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Sanpham.cs",
+              "RelativeToolTip": "THBaoMat\\Sanpham.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAowLQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:08:31.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Dangnhap.cs",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Dangnhap.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\Dangnhap.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Dangnhap.cs",
+              "RelativeToolTip": "THBaoMat\\Dangnhap.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAkwIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:41:07.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Program.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\Program.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Program.cs",
+              "RelativeToolTip": "THBaoMat\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswBIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:16:45.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Dangnhap.cs [Design]",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Dangnhap.cs",
               "RelativeDocumentMoniker": "THBaoMat\\Dangnhap.cs",
               "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Dangnhap.cs [Design]",
               "RelativeToolTip": "THBaoMat\\Dangnhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T05:40:07.166Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-18T05:40:07.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Main.cs",
-              "RelativeDocumentMoniker": "THBaoMat\\Main.cs",
-              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Main.cs [Design]",
-              "RelativeToolTip": "THBaoMat\\Main.cs [Design]",
+              "DocumentIndex": 9,
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\Main.Designer.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Main.Designer.cs",
+              "RelativeToolTip": "THBaoMat\\Main.Designer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwHgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T12:23:01.551Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-25T14:35:39.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MaHoaCong.cs [Design]",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\MaHoaCong.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\MaHoaCong.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\MaHoaCong.cs [Design]",
+              "RelativeToolTip": "THBaoMat\\MaHoaCong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:07:06.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MaHoaCong.cs",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\MaHoaCong.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\MaHoaCong.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\MaHoaCong.cs",
+              "RelativeToolTip": "THBaoMat\\MaHoaCong.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:07:09.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SoNghichDao.cs [Design]",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\SoNghichDao.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\SoNghichDao.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\SoNghichDao.cs [Design]",
+              "RelativeToolTip": "THBaoMat\\SoNghichDao.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:19:21.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SoNghichDao.cs",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\SoNghichDao.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\SoNghichDao.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\SoNghichDao.cs",
+              "RelativeToolTip": "THBaoMat\\SoNghichDao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:19:23.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Euclid.cs",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Euclid.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\Euclid.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Euclid.cs",
+              "RelativeToolTip": "THBaoMat\\Euclid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:19:14.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MaHoaNhan.cs",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\MaHoaNhan.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\MaHoaNhan.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\MaHoaNhan.cs",
+              "RelativeToolTip": "THBaoMat\\MaHoaNhan.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwB8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:07:38.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DangKy.cs [Design]",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\DangKy.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\DangKy.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\DangKy.cs [Design]",
+              "RelativeToolTip": "THBaoMat\\DangKy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T17:16:36.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HocVien.cs [Design]",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\HocVien.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\HocVien.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\HocVien.cs [Design]",
+              "RelativeToolTip": "THBaoMat\\HocVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:25:13.381Z"
             }
           ]
         }
