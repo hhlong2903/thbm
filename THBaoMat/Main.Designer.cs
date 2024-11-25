@@ -30,55 +30,76 @@
         {
             this.btnLogout = new System.Windows.Forms.Button();
             this.main_panel = new System.Windows.Forms.Panel();
-            this.btn_cong = new System.Windows.Forms.Button();
+            this.content_panel = new System.Windows.Forms.Panel();
+            this.btnSanPham = new System.Windows.Forms.Button();
             this.btn_nhan = new System.Windows.Forms.Button();
+            this.btn_cong = new System.Windows.Forms.Button();
             this.main_panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(694, 13);
+            this.btnLogout.Location = new System.Drawing.Point(1324, 3);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(75, 23);
+            this.btnLogout.Size = new System.Drawing.Size(111, 35);
             this.btnLogout.TabIndex = 0;
-            this.btnLogout.Text = "Log out";
+            this.btnLogout.Text = "Đăng xuất";
             this.btnLogout.UseVisualStyleBackColor = true;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // main_panel
             // 
+            this.main_panel.Controls.Add(this.content_panel);
+            this.main_panel.Controls.Add(this.btnSanPham);
             this.main_panel.Controls.Add(this.btn_nhan);
             this.main_panel.Controls.Add(this.btn_cong);
             this.main_panel.Location = new System.Drawing.Point(1, 44);
             this.main_panel.Name = "main_panel";
-            this.main_panel.Size = new System.Drawing.Size(811, 406);
+            this.main_panel.Size = new System.Drawing.Size(1437, 560);
             this.main_panel.TabIndex = 1;
             // 
-            // btn_cong
+            // content_panel
             // 
-            this.btn_cong.Location = new System.Drawing.Point(263, 76);
-            this.btn_cong.Name = "btn_cong";
-            this.btn_cong.Size = new System.Drawing.Size(146, 32);
-            this.btn_cong.TabIndex = 0;
-            this.btn_cong.Text = "Mã hóa cộng";
-            this.btn_cong.UseVisualStyleBackColor = true;
-            this.btn_cong.Click += new System.EventHandler(this.btn_cong_Click);
+            this.content_panel.Location = new System.Drawing.Point(153, 4);
+            this.content_panel.Name = "content_panel";
+            this.content_panel.Size = new System.Drawing.Size(1281, 556);
+            this.content_panel.TabIndex = 3;
+            // 
+            // btnSanPham
+            // 
+            this.btnSanPham.Location = new System.Drawing.Point(0, 0);
+            this.btnSanPham.Name = "btnSanPham";
+            this.btnSanPham.Size = new System.Drawing.Size(146, 60);
+            this.btnSanPham.TabIndex = 2;
+            this.btnSanPham.Text = "Sản phẩm";
+            this.btnSanPham.UseVisualStyleBackColor = true;
+            this.btnSanPham.Click += new System.EventHandler(this.btnSanPham_Click);
             // 
             // btn_nhan
             // 
-            this.btn_nhan.Location = new System.Drawing.Point(263, 154);
+            this.btn_nhan.Location = new System.Drawing.Point(3, 66);
             this.btn_nhan.Name = "btn_nhan";
-            this.btn_nhan.Size = new System.Drawing.Size(146, 32);
+            this.btn_nhan.Size = new System.Drawing.Size(146, 60);
             this.btn_nhan.TabIndex = 1;
             this.btn_nhan.Text = "Mã hóa Nhân";
             this.btn_nhan.UseVisualStyleBackColor = true;
             this.btn_nhan.Click += new System.EventHandler(this.btn_nhan_Click);
             // 
+            // btn_cong
+            // 
+            this.btn_cong.Location = new System.Drawing.Point(0, 132);
+            this.btn_cong.Name = "btn_cong";
+            this.btn_cong.Size = new System.Drawing.Size(146, 60);
+            this.btn_cong.TabIndex = 0;
+            this.btn_cong.Text = "Mã hóa cộng";
+            this.btn_cong.UseVisualStyleBackColor = true;
+            this.btn_cong.Click += new System.EventHandler(this.btn_cong_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(813, 451);
+            this.ClientSize = new System.Drawing.Size(1450, 616);
             this.Controls.Add(this.main_panel);
             this.Controls.Add(this.btnLogout);
             this.Name = "Main";
@@ -94,5 +115,7 @@
         private System.Windows.Forms.Panel main_panel;
         private System.Windows.Forms.Button btn_nhan;
         private System.Windows.Forms.Button btn_cong;
+        private System.Windows.Forms.Button btnSanPham;
+        private System.Windows.Forms.Panel content_panel;
     }
 }

@@ -57,9 +57,11 @@ namespace THBaoMat
                     return;
                 }
                 Database.GrantPermissions(user);
-                UpdateAndGetLastLogin(Database.Get_Connect(), user);
 
-                new Main().Show();
+                Main mainForm = new Main();
+                UpdateAndGetLastLogin(Database.Get_Connect(), user, mainForm.lb_time);
+
+                mainForm.Show();
                 this.Hide();
             }
             catch (Exception ex)
@@ -69,34 +71,52 @@ namespace THBaoMat
         }
 
         //Cập nhật và lấy thời gian đăng nhập
-        public static void UpdateAndGetLastLogin(OracleConnection connection, string username)
+        public static void UpdateAndGetLastLogin(OracleConnection connection, string username, Label lb_time)
         {
             try
             {
                 string sessionID = Guid.NewGuid().ToString();
 
-                string upsertQuery = @"MERGE INTO MANAGER.LOGIN_SESSIONS target USING (SELECT :username AS Username FROM dual) source
-                               ON (target.Username = source.Username)
-                               WHEN MATCHED THEN UPDATE SET LastLogin = SYSTIMESTAMP, SessionID = :sessionID, IS_LOGGED_IN = 1
-                               WHEN NOT MATCHED THEN INSERT (Username, LastLogin, SessionID, IS_LOGGED_IN) 
-                               VALUES (:username, SYSTIMESTAMP, :sessionID, 1)";
+                // Truy vấn thời gian đăng nhập trước đó
+                string selectLastLoginQuery = @"
+                SELECT TO_CHAR(LastLogin, 'YYYY-MM-DD HH24:MI:SS') AS LastLogin 
+                FROM MANAGER.LOGIN_SESSIONS 
+                WHERE Username = :username";
 
-                OracleCommand cmd = new OracleCommand(upsertQuery, connection);
-                cmd.Parameters.Add(new OracleParameter(":username", username));
-                cmd.Parameters.Add(new OracleParameter(":sessionID", sessionID));
-                cmd.ExecuteNonQuery(); 
+                string lastLogin = null;
+                using (OracleCommand cmd = new OracleCommand(selectLastLoginQuery, connection))
+                {
+                    cmd.Parameters.Add(new OracleParameter(":username", username));
+                    object result = cmd.ExecuteScalar();
+                    lastLogin = result?.ToString();
+                }
 
-                cmd.CommandText = "SELECT LastLogin FROM MANAGER.LOGIN_SESSIONS WHERE Username = :username";
-                cmd.Parameters.Clear(); 
-                cmd.Parameters.Add(new OracleParameter(":username", username));  
-                object result = cmd.ExecuteScalar(); 
+                if (!string.IsNullOrEmpty(lastLogin))
+                {
+                    lb_time.Text = $"Thời gian đăng nhập lần cuối: {lastLogin}";
+                }
 
-                string lastLogin = result?.ToString() ?? "Không có thông tin đăng nhập trước đó.";
-                MessageBox.Show($"Thời gian đăng nhập lần cuối của tài khoản '{username}': {lastLogin}");
+                //MERGE để cập nhật tt đăng nhập mới
+                string upsertQuery = @"
+                MERGE INTO MANAGER.LOGIN_SESSIONS target
+                USING (SELECT :username AS Username FROM dual) source
+                ON (target.Username = source.Username)
+                WHEN MATCHED THEN 
+                    UPDATE SET LastLogin = SYSTIMESTAMP, SessionID = :sessionID, IS_LOGGED_IN = 1
+                WHEN NOT MATCHED THEN 
+                    INSERT (Username, LastLogin, SessionID, IS_LOGGED_IN) 
+                    VALUES (:username, SYSTIMESTAMP, :sessionID, 1)";
+
+                using (OracleCommand cmd = new OracleCommand(upsertQuery, connection))
+                {
+                    cmd.Parameters.Add(new OracleParameter(":username", username));
+                    cmd.Parameters.Add(new OracleParameter(":sessionID", sessionID));
+                    cmd.ExecuteNonQuery();
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi: " + ex.Message);
+                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}\n{ex.StackTrace}");
             }
         }
 
