@@ -30,8 +30,14 @@
         {
             this.btnLogout = new System.Windows.Forms.Button();
             this.main_panel = new System.Windows.Forms.Panel();
-            this.btn_cong = new System.Windows.Forms.Button();
+            this.btn_congDB = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btn_RSA = new System.Windows.Forms.Button();
             this.btn_nhan = new System.Windows.Forms.Button();
+            this.btn_cong = new System.Windows.Forms.Button();
+            this.btn_nhanDB = new System.Windows.Forms.Button();
+            this.btn_des = new System.Windows.Forms.Button();
+            this.btn_desFile = new System.Windows.Forms.Button();
             this.main_panel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -39,7 +45,7 @@
             // 
             this.btnLogout.Location = new System.Drawing.Point(694, 13);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(75, 23);
+            this.btnLogout.Size = new System.Drawing.Size(75, 33);
             this.btnLogout.TabIndex = 0;
             this.btnLogout.Text = "Log out";
             this.btnLogout.UseVisualStyleBackColor = true;
@@ -47,16 +53,61 @@
             // 
             // main_panel
             // 
+            this.main_panel.Controls.Add(this.btn_desFile);
+            this.main_panel.Controls.Add(this.btn_des);
+            this.main_panel.Controls.Add(this.btn_nhanDB);
+            this.main_panel.Controls.Add(this.btn_congDB);
+            this.main_panel.Controls.Add(this.button2);
+            this.main_panel.Controls.Add(this.btn_RSA);
             this.main_panel.Controls.Add(this.btn_nhan);
             this.main_panel.Controls.Add(this.btn_cong);
-            this.main_panel.Location = new System.Drawing.Point(1, 44);
+            this.main_panel.Location = new System.Drawing.Point(1, 52);
             this.main_panel.Name = "main_panel";
-            this.main_panel.Size = new System.Drawing.Size(811, 406);
+            this.main_panel.Size = new System.Drawing.Size(811, 398);
             this.main_panel.TabIndex = 1;
+            // 
+            // btn_congDB
+            // 
+            this.btn_congDB.Location = new System.Drawing.Point(48, 201);
+            this.btn_congDB.Name = "btn_congDB";
+            this.btn_congDB.Size = new System.Drawing.Size(146, 32);
+            this.btn_congDB.TabIndex = 4;
+            this.btn_congDB.Text = "Mã hóa cộng DB";
+            this.btn_congDB.UseVisualStyleBackColor = true;
+            this.btn_congDB.Click += new System.EventHandler(this.btn_congDB_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(622, 53);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(146, 32);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Mã hóa lai";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // btn_RSA
+            // 
+            this.btn_RSA.Location = new System.Drawing.Point(343, 53);
+            this.btn_RSA.Name = "btn_RSA";
+            this.btn_RSA.Size = new System.Drawing.Size(146, 32);
+            this.btn_RSA.TabIndex = 2;
+            this.btn_RSA.Text = "RSA";
+            this.btn_RSA.UseVisualStyleBackColor = true;
+            this.btn_RSA.Click += new System.EventHandler(this.btn_RSA_Click);
+            // 
+            // btn_nhan
+            // 
+            this.btn_nhan.Location = new System.Drawing.Point(48, 131);
+            this.btn_nhan.Name = "btn_nhan";
+            this.btn_nhan.Size = new System.Drawing.Size(146, 32);
+            this.btn_nhan.TabIndex = 1;
+            this.btn_nhan.Text = "Mã hóa Nhân";
+            this.btn_nhan.UseVisualStyleBackColor = true;
+            this.btn_nhan.Click += new System.EventHandler(this.btn_nhan_Click);
             // 
             // btn_cong
             // 
-            this.btn_cong.Location = new System.Drawing.Point(263, 76);
+            this.btn_cong.Location = new System.Drawing.Point(48, 53);
             this.btn_cong.Name = "btn_cong";
             this.btn_cong.Size = new System.Drawing.Size(146, 32);
             this.btn_cong.TabIndex = 0;
@@ -64,15 +115,35 @@
             this.btn_cong.UseVisualStyleBackColor = true;
             this.btn_cong.Click += new System.EventHandler(this.btn_cong_Click);
             // 
-            // btn_nhan
+            // btn_nhanDB
             // 
-            this.btn_nhan.Location = new System.Drawing.Point(263, 154);
-            this.btn_nhan.Name = "btn_nhan";
-            this.btn_nhan.Size = new System.Drawing.Size(146, 32);
-            this.btn_nhan.TabIndex = 1;
-            this.btn_nhan.Text = "Mã hóa Nhân";
-            this.btn_nhan.UseVisualStyleBackColor = true;
-            this.btn_nhan.Click += new System.EventHandler(this.btn_nhan_Click);
+            this.btn_nhanDB.Location = new System.Drawing.Point(48, 270);
+            this.btn_nhanDB.Name = "btn_nhanDB";
+            this.btn_nhanDB.Size = new System.Drawing.Size(146, 32);
+            this.btn_nhanDB.TabIndex = 5;
+            this.btn_nhanDB.Text = "Mã hóa nhân DB";
+            this.btn_nhanDB.UseVisualStyleBackColor = true;
+            this.btn_nhanDB.Click += new System.EventHandler(this.btn_nhanDB_Click);
+            // 
+            // btn_des
+            // 
+            this.btn_des.Location = new System.Drawing.Point(343, 131);
+            this.btn_des.Name = "btn_des";
+            this.btn_des.Size = new System.Drawing.Size(146, 32);
+            this.btn_des.TabIndex = 6;
+            this.btn_des.Text = "DES";
+            this.btn_des.UseVisualStyleBackColor = true;
+            this.btn_des.Click += new System.EventHandler(this.btn_des_Click);
+            // 
+            // btn_desFile
+            // 
+            this.btn_desFile.Location = new System.Drawing.Point(343, 201);
+            this.btn_desFile.Name = "btn_desFile";
+            this.btn_desFile.Size = new System.Drawing.Size(146, 32);
+            this.btn_desFile.TabIndex = 7;
+            this.btn_desFile.Text = "DES File";
+            this.btn_desFile.UseVisualStyleBackColor = true;
+            this.btn_desFile.Click += new System.EventHandler(this.btn_desFile_Click);
             // 
             // Main
             // 
@@ -94,5 +165,11 @@
         private System.Windows.Forms.Panel main_panel;
         private System.Windows.Forms.Button btn_nhan;
         private System.Windows.Forms.Button btn_cong;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_RSA;
+        private System.Windows.Forms.Button btn_congDB;
+        private System.Windows.Forms.Button btn_nhanDB;
+        private System.Windows.Forms.Button btn_des;
+        private System.Windows.Forms.Button btn_desFile;
     }
 }

@@ -40,3 +40,9 @@ C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.pdb
 C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaCong.resources
 C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaNhan.resources
 C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.SoNghichDao.resources
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaCong_Database.resources
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaNhan_Database.resources
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.DesEncrypter_GUI.resources
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.FileEncryption.resources
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.RSA.resources
+C:\Users\hhl27\Desktop\LongCT\thbm\THBaoMat\obj\Debug\THBaoMat.TaoKhoaRSA.resources

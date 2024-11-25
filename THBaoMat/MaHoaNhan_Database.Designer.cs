@@ -1,7 +1,7 @@
 ﻿
 namespace THBaoMat
 {
-    partial class MaHoaCong
+    partial class MaHoaNhan_Database
     {
         /// <summary>
         /// Required designer variable.
@@ -47,7 +47,7 @@ namespace THBaoMat
             this.btn_Doc.Location = new System.Drawing.Point(415, 73);
             this.btn_Doc.Name = "btn_Doc";
             this.btn_Doc.Size = new System.Drawing.Size(167, 36);
-            this.btn_Doc.TabIndex = 27;
+            this.btn_Doc.TabIndex = 45;
             this.btn_Doc.Text = "Đọc";
             this.btn_Doc.UseVisualStyleBackColor = true;
             this.btn_Doc.Click += new System.EventHandler(this.btn_Doc_Click);
@@ -57,7 +57,7 @@ namespace THBaoMat
             this.btn_luu.Location = new System.Drawing.Point(617, 73);
             this.btn_luu.Name = "btn_luu";
             this.btn_luu.Size = new System.Drawing.Size(167, 36);
-            this.btn_luu.TabIndex = 26;
+            this.btn_luu.TabIndex = 44;
             this.btn_luu.Text = "Lưu";
             this.btn_luu.UseVisualStyleBackColor = true;
             this.btn_luu.Click += new System.EventHandler(this.btn_luu_Click);
@@ -67,7 +67,7 @@ namespace THBaoMat
             this.btnKetqua.Location = new System.Drawing.Point(617, 20);
             this.btnKetqua.Name = "btnKetqua";
             this.btnKetqua.Size = new System.Drawing.Size(167, 47);
-            this.btnKetqua.TabIndex = 25;
+            this.btnKetqua.TabIndex = 43;
             this.btnKetqua.Text = "Encrypt Message";
             this.btnKetqua.UseVisualStyleBackColor = true;
             this.btnKetqua.Click += new System.EventHandler(this.btnKetqua_Click);
@@ -78,11 +78,10 @@ namespace THBaoMat
             this.rd_btnDe.Location = new System.Drawing.Point(240, 33);
             this.rd_btnDe.Name = "rd_btnDe";
             this.rd_btnDe.Size = new System.Drawing.Size(78, 21);
-            this.rd_btnDe.TabIndex = 24;
+            this.rd_btnDe.TabIndex = 42;
             this.rd_btnDe.TabStop = true;
             this.rd_btnDe.Text = "Decrypt";
             this.rd_btnDe.UseVisualStyleBackColor = true;
-            this.rd_btnDe.CheckedChanged += new System.EventHandler(this.rd_btnDe_CheckedChanged);
             // 
             // rd_btnEn
             // 
@@ -90,11 +89,10 @@ namespace THBaoMat
             this.rd_btnEn.Location = new System.Drawing.Point(108, 33);
             this.rd_btnEn.Name = "rd_btnEn";
             this.rd_btnEn.Size = new System.Drawing.Size(77, 21);
-            this.rd_btnEn.TabIndex = 23;
+            this.rd_btnEn.TabIndex = 41;
             this.rd_btnEn.TabStop = true;
             this.rd_btnEn.Text = "Encrypt";
             this.rd_btnEn.UseVisualStyleBackColor = true;
-            this.rd_btnEn.CheckedChanged += new System.EventHandler(this.rd_btnEn_CheckedChanged);
             // 
             // label3
             // 
@@ -102,9 +100,8 @@ namespace THBaoMat
             this.label3.Location = new System.Drawing.Point(26, 35);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(47, 17);
-            this.label3.TabIndex = 22;
+            this.label3.TabIndex = 40;
             this.label3.Text = "Action";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label1
             // 
@@ -112,17 +109,15 @@ namespace THBaoMat
             this.label1.Location = new System.Drawing.Point(395, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(32, 17);
-            this.label1.TabIndex = 21;
+            this.label1.TabIndex = 39;
             this.label1.Text = "Key";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txt_key
             // 
             this.txt_key.Location = new System.Drawing.Point(431, 35);
             this.txt_key.Name = "txt_key";
             this.txt_key.Size = new System.Drawing.Size(120, 22);
-            this.txt_key.TabIndex = 20;
-            this.txt_key.ValueChanged += new System.EventHandler(this.txt_key_ValueChanged);
+            this.txt_key.TabIndex = 38;
             // 
             // dgv_khachhang
             // 
@@ -132,10 +127,9 @@ namespace THBaoMat
             this.dgv_khachhang.RowHeadersWidth = 51;
             this.dgv_khachhang.RowTemplate.Height = 24;
             this.dgv_khachhang.Size = new System.Drawing.Size(787, 432);
-            this.dgv_khachhang.TabIndex = 19;
-            this.dgv_khachhang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_khachhang_CellContentClick);
+            this.dgv_khachhang.TabIndex = 37;
             // 
-            // MaHoaCong
+            // MaHoaNhan_Database
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -149,8 +143,8 @@ namespace THBaoMat
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_key);
             this.Controls.Add(this.dgv_khachhang);
-            this.Name = "MaHoaCong";
-            this.Text = "MaHoaCong";
+            this.Name = "MaHoaNhan_Database";
+            this.Text = "MaHoaNhan_Database";
             ((System.ComponentModel.ISupportInitialize)(this.txt_key)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_khachhang)).EndInit();
             this.ResumeLayout(false);

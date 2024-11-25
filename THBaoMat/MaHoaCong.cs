@@ -27,31 +27,38 @@ namespace THBaoMat
         {
             try
             {
-                OracleConnection conn = Database.Get_Connect();
-                OracleCommand cmd = new OracleCommand("LoadKhachHang", conn);
-                cmd.CommandType = CommandType.StoredProcedure;
-
-                cmd.Parameters.Add("result", OracleDbType.RefCursor).Direction = ParameterDirection.Output;
-
-                adapter = new OracleDataAdapter(cmd);
-                dataTable = new DataTable();
-                adapter.Fill(dataTable);
-
-                // Kiểm tra nếu cột tồn tại và mã hóa
-                if (dataTable.Columns.Contains("SDT_KH"))
+                // Use 'using' statement for automatic disposal of resources
+                using (OracleConnection conn = Database.Get_Connect())
                 {
-                    foreach (DataRow row in dataTable.Rows)
+                    OracleCommand cmd = new OracleCommand("LoadKhachHang", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    // Set up the output parameter for the stored procedure
+                    cmd.Parameters.Add("result", OracleDbType.RefCursor).Direction = ParameterDirection.Output;
+
+                    // Use OracleDataAdapter to fill the data table
+                    using (OracleDataAdapter adapter = new OracleDataAdapter(cmd))
                     {
-                        string originalPhone = row["SDT_KH"].ToString();
+                        DataTable dataTable = new DataTable();
+                        adapter.Fill(dataTable);
 
-                        row["SDT_KH"] = EncryptPhone(originalPhone, key); // Mã hóa SDT_KH
+                        // Check if the SDT_KH column exists and apply encryption
+                        if (dataTable.Columns.Contains("SDT_KH"))
+                        {
+                            foreach (DataRow row in dataTable.Rows)
+                            {
+                                string originalPhone = row["SDT_KH"].ToString();
 
+                                // Encrypt the phone number with the provided key
+                                row["SDT_KH"] = EncryptPhone(originalPhone, key);
+                            }
+                        }
+
+                        // Update the DataGridView with the encrypted data
+                        dgv_khachhang.DataSource = null;  // Reset the DataSource
+                        dgv_khachhang.DataSource = dataTable;  // Assign the new data source
                     }
                 }
-
-                // Cập nhật lại DataSource
-                dgv_khachhang.DataSource = null;
-                dgv_khachhang.DataSource = dataTable;
             }
             catch (Exception ex)
             {
@@ -59,9 +66,11 @@ namespace THBaoMat
             }
             finally
             {
+                // Ensure the database connection is closed if not already done
                 Database.Close_Connect();
             }
         }
+
 
 
         // Hàm mã hóa số điện thoại
@@ -233,5 +242,24 @@ namespace THBaoMat
             }
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_key_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgv_khachhang_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

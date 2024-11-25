@@ -21,7 +21,7 @@ namespace THBaoMat
         {
             Database.Host = "localhost";
             Database.Port = "1521";
-            Database.Sid = "orcl2"; 
+            Database.Sid = "orcl1"; 
             Database.User = user;
             Database.Password = pass;
         }
@@ -133,18 +133,21 @@ namespace THBaoMat
 
         public static OracleConnection Get_Connect()
         {
-            if (Conn == null)
+            if (Conn == null || Conn.State != System.Data.ConnectionState.Open)
             {
-                Connect();
-            }
-
-            if (Conn.State != System.Data.ConnectionState.Open)
-            {
-                Conn.Open();
+                try
+                {
+                    Connect(); // Tạo lại kết nối
+                }
+                catch (Exception ex)
+                {
+                    throw new InvalidOperationException("Không thể kết nối tới cơ sở dữ liệu.", ex);
+                }
             }
 
             return Conn;
         }
+
 
         public static void Close_Connect()
         {

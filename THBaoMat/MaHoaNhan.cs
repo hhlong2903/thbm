@@ -154,7 +154,6 @@ namespace THBaoMat
                         string originalPhone = row.Cells["SDT_KH"].Value.ToString();
 
 
-
                         string customerId = row.Cells["MaKH"].Value.ToString();
 
 
@@ -205,24 +204,28 @@ namespace THBaoMat
                 OracleCommand cmd = new OracleCommand("LoadKhachHang", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
 
-                cmd.Parameters.Add("result", OracleDbType.RefCursor).Direction = ParameterDirection.Output;
+                // Thêm tham số OUT cho con trỏ kết quả
+                OracleParameter resultParam = new OracleParameter("result", OracleDbType.RefCursor);
+                resultParam.Direction = ParameterDirection.Output;
+                cmd.Parameters.Add(resultParam);
 
+                // Tạo adapter và lấy dữ liệu từ con trỏ
                 adapter = new OracleDataAdapter(cmd);
                 dataTable = new DataTable();
                 adapter.Fill(dataTable);
 
-                // Kiểm tra nếu cột tồn tại, nhưng không mã hóa dữ liệu
+                // Kiểm tra nếu cột "SDT_KH" tồn tại, nhưng không mã hóa dữ liệu
                 if (dataTable.Columns.Contains("SDT_KH"))
                 {
                     foreach (DataRow row in dataTable.Rows)
                     {
                         string originalPhone = row["SDT_KH"].ToString();
-                        // Không mã hóa số điện thoại, giữ nguyên
-                        row["SDT_KH"] = originalPhone; // Giữ nguyên giá trị cột SDT_KH
+                        // Giữ nguyên giá trị cột SDT_KH
+                        row["SDT_KH"] = originalPhone;
                     }
                 }
 
-                // Cập nhật lại DataSource
+                // Cập nhật lại DataSource cho DataGridView
                 dgv_khachhang.DataSource = null;
                 dgv_khachhang.DataSource = dataTable;
             }
@@ -235,6 +238,7 @@ namespace THBaoMat
                 Database.Close_Connect();
             }
         }
+
 
         private void btn_timK_Click(object sender, EventArgs e)
         {

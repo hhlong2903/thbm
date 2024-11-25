@@ -43,5 +43,35 @@ namespace THBaoMat
             MaHoaNhan mh = new MaHoaNhan();
             mh.Show();
         }
+
+        private void btn_congDB_Click(object sender, EventArgs e)
+        {
+            MaHoaCong_Database mh = new MaHoaCong_Database();
+            mh.Show();
+        }
+
+        private void btn_nhanDB_Click(object sender, EventArgs e)
+        {
+            MaHoaNhan_Database mh = new MaHoaNhan_Database();
+            mh.Show();
+        }
+
+        private void btn_des_Click(object sender, EventArgs e)
+        {
+            DesEncrypter_GUI des = new DesEncrypter_GUI();
+            des.Show();
+        }
+
+        private void btn_desFile_Click(object sender, EventArgs e)
+        {
+            FileEncryption file = new FileEncryption();
+            file.Show();
+        }
+
+        private void btn_RSA_Click(object sender, EventArgs e)
+        {
+            RSA rsa = new RSA();
+            rsa.Show();
+        }
     }
 }

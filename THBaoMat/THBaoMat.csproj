@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL" />
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -59,18 +59,43 @@
       <DependentUpon>Dangnhap.cs</DependentUpon>
     </Compile>
     <Compile Include="Database.cs" />
+    <Compile Include="DesEncrypter_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesEncrypter_GUI.Designer.cs">
+      <DependentUpon>DesEncrypter_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DesOracle.cs" />
     <Compile Include="Euclid.cs" />
+    <Compile Include="FileEncryption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileEncryption.Designer.cs">
+      <DependentUpon>FileEncryption.cs</DependentUpon>
+    </Compile>
     <Compile Include="MaHoaCong.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MaHoaCong.Designer.cs">
       <DependentUpon>MaHoaCong.cs</DependentUpon>
     </Compile>
+    <Compile Include="MaHoaCong_Database.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaHoaCong_Database.Designer.cs">
+      <DependentUpon>MaHoaCong_Database.cs</DependentUpon>
+    </Compile>
     <Compile Include="MaHoaNhan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MaHoaNhan.Designer.cs">
       <DependentUpon>MaHoaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaHoaNhan_Database.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaHoaNhan_Database.Designer.cs">
+      <DependentUpon>MaHoaNhan_Database.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -80,11 +105,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RSA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RSA.Designer.cs">
+      <DependentUpon>RSA.cs</DependentUpon>
+    </Compile>
     <Compile Include="SoNghichDao.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SoNghichDao.Designer.cs">
       <DependentUpon>SoNghichDao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaoKhoaRSA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaoKhoaRSA.Designer.cs">
+      <DependentUpon>TaoKhoaRSA.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="DangKy.resx">
       <DependentUpon>DangKy.cs</DependentUpon>
@@ -92,11 +129,23 @@
     <EmbeddedResource Include="Dangnhap.resx">
       <DependentUpon>Dangnhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DesEncrypter_GUI.resx">
+      <DependentUpon>DesEncrypter_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileEncryption.resx">
+      <DependentUpon>FileEncryption.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MaHoaCong.resx">
       <DependentUpon>MaHoaCong.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MaHoaCong_Database.resx">
+      <DependentUpon>MaHoaCong_Database.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MaHoaNhan.resx">
       <DependentUpon>MaHoaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaHoaNhan_Database.resx">
+      <DependentUpon>MaHoaNhan_Database.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -111,8 +160,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RSA.resx">
+      <DependentUpon>RSA.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SoNghichDao.resx">
       <DependentUpon>SoNghichDao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaoKhoaRSA.resx">
+      <DependentUpon>TaoKhoaRSA.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
