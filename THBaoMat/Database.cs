@@ -51,8 +51,6 @@ namespace THBaoMat
             }
         }
 
-
-
         //kết nối tài khoản manager
         public static OracleConnection GetSessionManagerConnection()
         {
@@ -111,9 +109,14 @@ namespace THBaoMat
                 OracleConnection connection = Database.GetSessionManagerConnection();
                 if (connection != null)
                 {
-                    string grantQuery = $"GRANT CONNECT, RESOURCE TO {username}";
+                    string grantQuery = $"GRANT CONNECT TO {username}";
                     OracleCommand cmd = new OracleCommand(grantQuery, connection);
                     cmd.ExecuteNonQuery();
+
+                    //cấp quyền bảng SanPham
+                    string grantSanPhamQuery = $"GRANT SELECT, INSERT, UPDATE, DELETE ON manager.SanPham TO {username}";
+                    OracleCommand cmdSanPham = new OracleCommand(grantSanPhamQuery, connection);
+                    cmdSanPham.ExecuteNonQuery();
 
                     connection.Close();
                     return true; 
@@ -133,16 +136,16 @@ namespace THBaoMat
 
         public static OracleConnection Get_Connect()
         {
-            if (Conn == null || Conn.State != System.Data.ConnectionState.Open)
+            if (Conn == null || Conn.State == System.Data.ConnectionState.Closed || Conn.State == System.Data.ConnectionState.Broken)
             {
-                try
+                // Kiểm tra nếu mật khẩu không được cung cấp
+                if (string.IsNullOrEmpty(Password))
                 {
-                    Connect(); // Tạo lại kết nối
+                    throw new InvalidOperationException("Password is required.");
                 }
-                catch (Exception ex)
-                {
-                    throw new InvalidOperationException("Không thể kết nối tới cơ sở dữ liệu.", ex);
-                }
+
+                Conn = new OracleConnection(Conn.ConnectionString);
+                Conn.Open();
             }
 
             return Conn;
@@ -157,6 +160,7 @@ namespace THBaoMat
                 Conn = null; // Đảm bảo tài nguyên được giải phóng
             }
         }
+
 
         //Đăng xuất
         public static void Logout(string username)
@@ -183,5 +187,7 @@ namespace THBaoMat
                 }
             }
         }
+
+
     }
 }

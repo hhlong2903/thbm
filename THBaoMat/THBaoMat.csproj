@@ -105,11 +105,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="RSA.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="RSA.Designer.cs">
       <DependentUpon>RSA.cs</DependentUpon>
+=======
+    <Compile Include="Sanpham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sanpham.Designer.cs">
+      <DependentUpon>Sanpham.cs</DependentUpon>
+>>>>>>> main
     </Compile>
     <Compile Include="SoNghichDao.cs">
       <SubType>Form</SubType>
@@ -160,8 +168,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+<<<<<<< HEAD
     <EmbeddedResource Include="RSA.resx">
       <DependentUpon>RSA.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Sanpham.resx">
+      <DependentUpon>Sanpham.cs</DependentUpon>
+>>>>>>> main
     </EmbeddedResource>
     <EmbeddedResource Include="SoNghichDao.resx">
       <DependentUpon>SoNghichDao.cs</DependentUpon>
