@@ -41,14 +41,9 @@ namespace THBaoMat
             }
         }
 
-        private void btn_cong_Click(object sender, EventArgs e)
-        {
-            openChildForm(new MaHoaCong());
-        }
-
         private void btn_nhan_Click(object sender, EventArgs e)
         {
-            openChildForm(new MaHoaNhan());
+            openChildForm(new MaHoa());
         }
 
         private void btnSanPham_Click(object sender, EventArgs e)

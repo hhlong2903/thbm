@@ -32,8 +32,7 @@
             this.main_panel = new System.Windows.Forms.Panel();
             this.content_panel = new System.Windows.Forms.Panel();
             this.btnSanPham = new System.Windows.Forms.Button();
-            this.btn_nhan = new System.Windows.Forms.Button();
-            this.btn_cong = new System.Windows.Forms.Button();
+            this.btn_mahoa = new System.Windows.Forms.Button();
             this.main_panel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,18 +50,18 @@
             // 
             this.main_panel.Controls.Add(this.content_panel);
             this.main_panel.Controls.Add(this.btnSanPham);
-            this.main_panel.Controls.Add(this.btn_nhan);
-            this.main_panel.Controls.Add(this.btn_cong);
+            this.main_panel.Controls.Add(this.btn_mahoa);
             this.main_panel.Location = new System.Drawing.Point(1, 44);
             this.main_panel.Name = "main_panel";
-            this.main_panel.Size = new System.Drawing.Size(1437, 560);
+            this.main_panel.Size = new System.Drawing.Size(1437, 680);
             this.main_panel.TabIndex = 1;
             // 
             // content_panel
             // 
+            this.content_panel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.content_panel.Location = new System.Drawing.Point(153, 4);
             this.content_panel.Name = "content_panel";
-            this.content_panel.Size = new System.Drawing.Size(1281, 556);
+            this.content_panel.Size = new System.Drawing.Size(1281, 673);
             this.content_panel.TabIndex = 3;
             // 
             // btnSanPham
@@ -75,31 +74,21 @@
             this.btnSanPham.UseVisualStyleBackColor = true;
             this.btnSanPham.Click += new System.EventHandler(this.btnSanPham_Click);
             // 
-            // btn_nhan
+            // btn_mahoa
             // 
-            this.btn_nhan.Location = new System.Drawing.Point(3, 66);
-            this.btn_nhan.Name = "btn_nhan";
-            this.btn_nhan.Size = new System.Drawing.Size(146, 60);
-            this.btn_nhan.TabIndex = 1;
-            this.btn_nhan.Text = "Mã hóa Nhân";
-            this.btn_nhan.UseVisualStyleBackColor = true;
-            this.btn_nhan.Click += new System.EventHandler(this.btn_nhan_Click);
-            // 
-            // btn_cong
-            // 
-            this.btn_cong.Location = new System.Drawing.Point(0, 132);
-            this.btn_cong.Name = "btn_cong";
-            this.btn_cong.Size = new System.Drawing.Size(146, 60);
-            this.btn_cong.TabIndex = 0;
-            this.btn_cong.Text = "Mã hóa cộng";
-            this.btn_cong.UseVisualStyleBackColor = true;
-            this.btn_cong.Click += new System.EventHandler(this.btn_cong_Click);
+            this.btn_mahoa.Location = new System.Drawing.Point(0, 66);
+            this.btn_mahoa.Name = "btn_mahoa";
+            this.btn_mahoa.Size = new System.Drawing.Size(146, 60);
+            this.btn_mahoa.TabIndex = 1;
+            this.btn_mahoa.Text = "Mã hóa";
+            this.btn_mahoa.UseVisualStyleBackColor = true;
+            this.btn_mahoa.Click += new System.EventHandler(this.btn_nhan_Click);
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1450, 616);
+            this.ClientSize = new System.Drawing.Size(1450, 726);
             this.Controls.Add(this.main_panel);
             this.Controls.Add(this.btnLogout);
             this.Name = "Main";
@@ -113,8 +102,7 @@
 
         private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.Panel main_panel;
-        private System.Windows.Forms.Button btn_nhan;
-        private System.Windows.Forms.Button btn_cong;
+        private System.Windows.Forms.Button btn_mahoa;
         private System.Windows.Forms.Button btnSanPham;
         private System.Windows.Forms.Panel content_panel;
     }

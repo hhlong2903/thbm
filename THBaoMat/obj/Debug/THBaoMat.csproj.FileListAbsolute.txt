@@ -43,3 +43,27 @@ D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaCong.resources
 D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaNhan.resources
 D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.SoNghichDao.resources
 D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.Sanpham.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\bin\Debug\THBaoMat.exe.config
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\bin\Debug\THBaoMat.exe
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\bin\Debug\THBaoMat.pdb
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.AssemblyReference.cache
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.DangKy.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.Dangnhap.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaCong.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaNhan.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.Main.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.Properties.Resources.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.Sanpham.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.SoNghichDao.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.GenerateResource.cache
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.CoreCompileInputs.cache
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.csproj.CopyComplete
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.exe
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.pdb
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoa.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaCong_Database.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.DesEncrypter_GUI.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.FileEncryption.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaNhan_Database.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.RSA.resources
+C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.TaoKhoaRSA.resources
