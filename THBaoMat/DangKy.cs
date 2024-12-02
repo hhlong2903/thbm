@@ -31,7 +31,12 @@ namespace THBaoMat
                 OracleConnection connection = Database.GetSessionManagerConnection();
                 if (connection != null)
                 {
-                    string createUserQuery = $"CREATE USER {username} IDENTIFIED BY {password}";
+                    string createUserQuery = $@"CREATE USER {username} IDENTIFIED BY {password}
+                        DEFAULT TABLESPACE NhanVien
+                        TEMPORARY TABLESPACE TEMP
+                        QUOTA 50M ON NhanVien
+                        PROFILE nhanvien";  //gán profile
+
                     OracleCommand cmd = new OracleCommand(createUserQuery, connection);
                     cmd.ExecuteNonQuery();
 

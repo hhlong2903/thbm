@@ -68,6 +68,8 @@ namespace THBaoMat
             {
                 MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}");
             }
+
+
         }
 
         //Cập nhật và lấy thời gian đăng nhập
@@ -76,12 +78,12 @@ namespace THBaoMat
             try
             {
                 string sessionID = Guid.NewGuid().ToString();
+                DateTime currentTime = DateTime.Now;
 
                 // Truy vấn thời gian đăng nhập trước đó
-                string selectLastLoginQuery = @"
-                SELECT TO_CHAR(LastLogin, 'YYYY-MM-DD HH24:MI:SS') AS LastLogin 
-                FROM MANAGER.LOGIN_SESSIONS 
-                WHERE Username = :username";
+                string selectLastLoginQuery = @"SELECT TO_CHAR(LastLogin, 'YYYY-MM-DD HH24:MI:SS') AS LastLogin 
+                    FROM MANAGER.LOGIN_SESSIONS 
+                    WHERE Username = :username";
 
                 string lastLogin = null;
                 using (OracleCommand cmd = new OracleCommand(selectLastLoginQuery, connection))
@@ -96,16 +98,12 @@ namespace THBaoMat
                     lb_time.Text = $"Thời gian đăng nhập lần cuối: {lastLogin}";
                 }
 
-                //MERGE để cập nhật tt đăng nhập mới
-                string upsertQuery = @"
-                MERGE INTO MANAGER.LOGIN_SESSIONS target
-                USING (SELECT :username AS Username FROM dual) source
-                ON (target.Username = source.Username)
-                WHEN MATCHED THEN 
-                    UPDATE SET LastLogin = SYSTIMESTAMP, SessionID = :sessionID, IS_LOGGED_IN = 1
-                WHEN NOT MATCHED THEN 
-                    INSERT (Username, LastLogin, SessionID, IS_LOGGED_IN) 
-                    VALUES (:username, SYSTIMESTAMP, :sessionID, 1)";
+                // MERGE để cập nhật thông tin đăng nhập và bắt đầu phiên mới
+                string upsertQuery = @"MERGE INTO MANAGER.LOGIN_SESSIONS target USING (SELECT :username AS Username FROM dual) source
+                    ON (target.Username = source.Username)
+                    WHEN MATCHED THEN UPDATE SET LastLogin = SYSTIMESTAMP, SessionID = :sessionID, IS_LOGGED_IN = 1, SessionStart = SYSTIMESTAMP
+                    WHEN NOT MATCHED THEN INSERT (Username, LastLogin, SessionID, IS_LOGGED_IN, SessionStart) 
+                    VALUES (:username, SYSTIMESTAMP, :sessionID, 1, SYSTIMESTAMP)";
 
                 using (OracleCommand cmd = new OracleCommand(upsertQuery, connection))
                 {
@@ -113,6 +111,10 @@ namespace THBaoMat
                     cmd.Parameters.Add(new OracleParameter(":sessionID", sessionID));
                     cmd.ExecuteNonQuery();
                 }
+
+                // Lưu session ID trong biến toàn cục hoặc truyền đến các form khác nếu cần
+                SessionManager.SessionID = sessionID;
+                SessionManager.CurrentUsername = username;
             }
             catch (Exception ex)
             {

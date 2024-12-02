@@ -32,12 +32,12 @@ namespace THBaoMat
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn đăng xuất không?","Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn đăng xuất không?","Xác nhận",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
             {
-                Database.Logout(Database.User);
-                Close();
+                SessionManager.EndSession();
+                Application.Exit();
             }
         }
 
@@ -65,6 +65,13 @@ namespace THBaoMat
             content_panel.Controls.Add(childForm);
             childForm.BringToFront();
             childForm.Show();
+        }
+
+        private async void Main_Load(object sender, EventArgs e)
+        {
+            await Task.Delay(10000);
+
+            SessionChecker.StartCheckingSession();
         }
     }
 }

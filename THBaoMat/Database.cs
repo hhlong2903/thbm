@@ -21,7 +21,7 @@ namespace THBaoMat
         {
             Database.Host = "localhost";
             Database.Port = "1521";
-            Database.Sid = "orcl1"; 
+            Database.Sid = "orcl2"; 
             Database.User = user;
             Database.Password = pass;
         }

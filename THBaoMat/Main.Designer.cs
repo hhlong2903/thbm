@@ -93,6 +93,7 @@
             this.Controls.Add(this.btnLogout);
             this.Name = "Main";
             this.Text = "Main";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.main_panel.ResumeLayout(false);
             this.ResumeLayout(false);
 

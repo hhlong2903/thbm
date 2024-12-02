@@ -123,6 +123,8 @@
     <Compile Include="Sanpham.Designer.cs">
       <DependentUpon>Sanpham.cs</DependentUpon>
     </Compile>
+    <Compile Include="SessionChecker.cs" />
+    <Compile Include="SessionManager.cs" />
     <Compile Include="SoNghichDao.cs">
       <SubType>Form</SubType>
     </Compile>

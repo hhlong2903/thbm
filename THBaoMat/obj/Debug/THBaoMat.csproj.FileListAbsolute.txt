@@ -67,3 +67,10 @@ C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.FileEncrypt
 C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaNhan_Database.resources
 C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.RSA.resources
 C:\Users\hhl27\Desktop\LongCT\Khanh\thbm\THBaoMat\obj\Debug\THBaoMat.TaoKhoaRSA.resources
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.DesEncrypter_GUI.resources
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.FileEncryption.resources
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoa.resources
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaCong_Database.resources
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.MaHoaNhan_Database.resources
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.RSA.resources
+D:\Y4\HK1\BM HTTTT\TH\Doan\thbm\THBaoMat\obj\Debug\THBaoMat.TaoKhoaRSA.resources

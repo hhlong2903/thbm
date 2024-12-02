@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|d:\\y4\\hk1\\bm htttt\\th\\doan\\thbm\\thbaomat\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|d:\\y4\\hk1\\bm htttt\\th\\doan\\thbm\\thbaomat\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|d:\\y4\\hk1\\bm htttt\\th\\doan\\thbm\\thbaomat\\sessionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\sessionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,19 +31,23 @@
       "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|d:\\y4\\hk1\\bm htttt\\th\\doan\\thbm\\thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|d:\\y4\\hk1\\bm htttt\\th\\doan\\thbm\\thbaomat\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\thbaomat\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{730693DD-027E-4F96-ADB1-BFFDD1CBABE7}|THBaoMat\\THBaoMat.csproj|solutionrelative:thbaomat\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -82,17 +90,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Main.cs",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Main.cs",
               "RelativeDocumentMoniker": "THBaoMat\\Main.cs",
               "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Main.cs",
               "RelativeToolTip": "THBaoMat\\Main.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwEYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T12:23:29.411Z",
               "IsPinned": true,
@@ -100,21 +108,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DangKy.cs",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\DangKy.cs",
               "RelativeDocumentMoniker": "THBaoMat\\DangKy.cs",
               "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\DangKy.cs",
               "RelativeToolTip": "THBaoMat\\DangKy.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAkwEEAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T17:17:24.066Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Main.cs [Design]",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Main.cs",
               "RelativeDocumentMoniker": "THBaoMat\\Main.cs",
@@ -151,58 +158,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Sanpham.cs [Design]",
-              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Sanpham.cs",
-              "RelativeDocumentMoniker": "THBaoMat\\Sanpham.cs",
-              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Sanpham.cs [Design]",
-              "RelativeToolTip": "THBaoMat\\Sanpham.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:02:20.079Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Database.cs",
-              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Database.cs",
-              "RelativeDocumentMoniker": "THBaoMat\\Database.cs",
-              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Database.cs",
-              "RelativeToolTip": "THBaoMat\\Database.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAAuwL4AAAAAAAAAAAAAAA==",
+              "Title": "SessionChecker.cs",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\SessionChecker.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\SessionChecker.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\SessionChecker.cs",
+              "RelativeToolTip": "THBaoMat\\SessionChecker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T05:40:04.919Z",
+              "WhenOpened": "2024-12-02T17:21:09.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Sanpham.cs",
-              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Sanpham.cs",
-              "RelativeDocumentMoniker": "THBaoMat\\Sanpham.cs",
-              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Sanpham.cs",
-              "RelativeToolTip": "THBaoMat\\Sanpham.cs",
-              "ViewState": "AgIAAA0BAAAAAAAAAAAAAA0BAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\SessionManager.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\SessionManager.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\SessionManager.cs",
+              "RelativeToolTip": "THBaoMat\\SessionManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwCMAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:08:31.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T15:17:50.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Dangnhap.cs",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Dangnhap.cs",
               "RelativeDocumentMoniker": "THBaoMat\\Dangnhap.cs",
               "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Dangnhap.cs",
               "RelativeToolTip": "THBaoMat\\Dangnhap.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAkwIEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAawD0AAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T15:41:07.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T15:41:07.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "Dangnhap.cs [Design]",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Dangnhap.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\Dangnhap.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Dangnhap.cs [Design]",
+              "RelativeToolTip": "THBaoMat\\Dangnhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:40:07.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Database.cs",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Database.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\Database.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Database.cs",
+              "RelativeToolTip": "THBaoMat\\Database.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAuwLEAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:40:04.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sanpham.cs",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Sanpham.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\Sanpham.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Sanpham.cs",
+              "RelativeToolTip": "THBaoMat\\Sanpham.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwLEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:08:31.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Program.cs",
               "RelativeDocumentMoniker": "THBaoMat\\Program.cs",
@@ -210,24 +238,22 @@
               "RelativeToolTip": "THBaoMat\\Program.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAswBIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T01:16:45.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T01:16:45.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Dangnhap.cs [Design]",
-              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Dangnhap.cs",
-              "RelativeDocumentMoniker": "THBaoMat\\Dangnhap.cs",
-              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Dangnhap.cs [Design]",
-              "RelativeToolTip": "THBaoMat\\Dangnhap.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "Sanpham.cs [Design]",
+              "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Sanpham.cs",
+              "RelativeDocumentMoniker": "THBaoMat\\Sanpham.cs",
+              "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Sanpham.cs [Design]",
+              "RelativeToolTip": "THBaoMat\\Sanpham.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T05:40:07.166Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-25T14:02:20.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Main.Designer.cs",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Main.Designer.cs",
               "RelativeDocumentMoniker": "THBaoMat\\Main.Designer.cs",
@@ -240,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "MaHoaCong.cs [Design]",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\MaHoaCong.cs",
               "RelativeDocumentMoniker": "THBaoMat\\MaHoaCong.cs",
@@ -251,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "MaHoaCong.cs",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\MaHoaCong.cs",
               "RelativeDocumentMoniker": "THBaoMat\\MaHoaCong.cs",
@@ -263,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "SoNghichDao.cs [Design]",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\SoNghichDao.cs",
               "RelativeDocumentMoniker": "THBaoMat\\SoNghichDao.cs",
@@ -274,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "SoNghichDao.cs",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\SoNghichDao.cs",
               "RelativeDocumentMoniker": "THBaoMat\\SoNghichDao.cs",
@@ -286,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Euclid.cs",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\Euclid.cs",
               "RelativeDocumentMoniker": "THBaoMat\\Euclid.cs",
@@ -298,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "MaHoaNhan.cs",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\MaHoaNhan.cs",
               "RelativeDocumentMoniker": "THBaoMat\\MaHoaNhan.cs",
@@ -310,19 +336,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "DangKy.cs [Design]",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\DangKy.cs",
               "RelativeDocumentMoniker": "THBaoMat\\DangKy.cs",
               "ToolTip": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\DangKy.cs [Design]",
               "RelativeToolTip": "THBaoMat\\DangKy.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:16:36.793Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-18T17:16:36.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "HocVien.cs [Design]",
               "DocumentMoniker": "D:\\Y4\\HK1\\BM HTTTT\\TH\\Doan\\thbm\\THBaoMat\\HocVien.cs",
               "RelativeDocumentMoniker": "THBaoMat\\HocVien.cs",
