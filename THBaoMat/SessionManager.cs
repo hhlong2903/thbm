@@ -7,7 +7,7 @@ namespace THBaoMat
     public static class SessionManager
     {
         public static string SessionID { get; set; } // SessionID của user hiện tại
-        public static string CurrentUsername { get; set; } // Username hiện tại
+        public static string CurrentUsername { get; set; }
 
         public static void EndSession()
         {
@@ -15,20 +15,19 @@ namespace THBaoMat
             {
                 using (OracleConnection conn = Database.GetSessionManagerConnection())
                 {
-                    // Kiểm tra trạng thái kết nối trước khi mở
                     if (conn.State == System.Data.ConnectionState.Closed)
                     {
-                        conn.Open(); // Mở kết nối nếu nó chưa được mở
+                        conn.Open(); 
                     }
 
-                    // Truy vấn cập nhật trạng thái IS_LOGGED_IN cho tất cả các phiên của tài khoản
+                    //cập nhật trạng thái IS_LOGGED_IN cho tất cả các phiên của tài khoản
                     string query = @"UPDATE MANAGER.LOGIN_SESSIONS
                              SET IS_LOGGED_IN = 0, SessionEnd = SYSTIMESTAMP
                              WHERE Username = :username";
 
                     using (OracleCommand cmd = new OracleCommand(query, conn))
                     {
-                        cmd.Parameters.Add(new OracleParameter(":username", CurrentUsername)); // Thay thế bằng username hiện tại
+                        cmd.Parameters.Add(new OracleParameter(":username", CurrentUsername));
                         int rowsAffected = cmd.ExecuteNonQuery();
 
                         if (rowsAffected > 0)

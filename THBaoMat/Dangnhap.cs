@@ -68,8 +68,6 @@ namespace THBaoMat
             {
                 MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}");
             }
-
-
         }
 
         //Cập nhật và lấy thời gian đăng nhập

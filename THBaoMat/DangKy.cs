@@ -26,35 +26,38 @@ namespace THBaoMat
             if (!KiemTraTextbox(username, password))
                 return;
 
+            if (KiemTraUserTonTai(username))
+            {
+                MessageBox.Show("User đã tồn tại.");
+                return;
+            }
+
             try
             {
-                OracleConnection connection = Database.GetSessionManagerConnection();
-                if (connection != null)
+                using (OracleConnection connection = Database.GetSessionManagerConnection())
                 {
-                    string createUserQuery = $@"CREATE USER {username} IDENTIFIED BY {password}
-                        DEFAULT TABLESPACE NhanVien
-                        TEMPORARY TABLESPACE TEMP
-                        QUOTA 50M ON NhanVien
-                        PROFILE nhanvien";  //gán profile
-
-                    OracleCommand cmd = new OracleCommand(createUserQuery, connection);
-                    cmd.ExecuteNonQuery();
-
-                    if (Database.GrantPermissionsForCreate(username))
+                    if (connection != null)
                     {
+                        // Gọi stored procedure
+                        OracleCommand cmd = new OracleCommand("pro_create_user", connection)
+                        {
+                            CommandType = CommandType.StoredProcedure
+                        };
+                        // Thêm tham số đầu vào
+                        cmd.Parameters.Add("username", OracleDbType.Varchar2).Value = username;
+                        cmd.Parameters.Add("password", OracleDbType.Varchar2).Value = password;
+
+                        cmd.ExecuteNonQuery();
                         MessageBox.Show($"Tạo tài khoản mới thành công: {username}");
+
                         connection.Close();
                         new Dangnhap().Show();
                         this.Hide();
                     }
                     else
                     {
-                        MessageBox.Show($"Lỗi cấp quyền cho tài khoản: {username}");
+                        MessageBox.Show("Kết nối tới cơ sở dữ liệu thất bại.");
                     }
-                }
-                else
-                {
-                    MessageBox.Show("Kết nối tới cơ sở dữ liệu thất bại.");
                 }
             }
             catch (Exception ex)
@@ -85,6 +88,39 @@ namespace THBaoMat
                 return false;
             }
             return true;
+        }
+
+        private bool KiemTraUserTonTai(string username)
+        {
+            try
+            {
+                using (OracleConnection connection = Database.GetSessionManagerConnection())
+                {
+                    if (connection != null)
+                    {
+                        // Gọi hàm fun_check_account
+                        string query = "SELECT fun_check_account(:username) FROM dual";
+                        using (OracleCommand cmd = new OracleCommand(query, connection))
+                        {
+                            cmd.Parameters.Add(new OracleParameter(":username", username));
+                            object result = cmd.ExecuteScalar();
+
+                            int userExists = Convert.ToInt32(result);
+                            return userExists == 1; // Trả về true nếu user tồn tại
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Kết nối tới cơ sở dữ liệu thất bại.");
+                        return false;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}");
+                return false;
+            }
         }
 
     }
