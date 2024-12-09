@@ -23,45 +23,42 @@ namespace THBaoMat
             InitializeComponent();
             euclid = new Euclid();
             rd_btnEn.Checked = true;
-
-       
-
         }
 
         void LoadData(int e, int n)
         {
             try
             {
-                // Use 'using' statement for automatic disposal of resources
+                
                 using (OracleConnection conn = Database.Get_Connect())
                 {
                     OracleCommand cmd = new OracleCommand("LoadKhachHang", conn);
                     cmd.CommandType = CommandType.StoredProcedure;
 
-                    // Set up the output parameter for the stored procedure
+                   
                     cmd.Parameters.Add("result", OracleDbType.RefCursor).Direction = ParameterDirection.Output;
 
-                    // Use OracleDataAdapter to fill the data table
+                    
                     using (OracleDataAdapter adapter = new OracleDataAdapter(cmd))
                     {
                         DataTable dataTable = new DataTable();
                         adapter.Fill(dataTable);
 
-                        // Check if the SDT_KH column exists and apply encryption
+                        
                         if (dataTable.Columns.Contains("SDT_KH"))
                         {
                             foreach (DataRow row in dataTable.Rows)
                             {
                                 string originalPhone = row["SDT_KH"].ToString();
 
-                                // Encrypt the phone number with the provided key
+                                
                                 row["SDT_KH"] = RSAEncrypt(originalPhone, e , n);
                             }
                         }
 
-                        // Update the DataGridView with the encrypted data
-                        dgv_khachhang.DataSource = null;  // Reset the DataSource
-                        dgv_khachhang.DataSource = dataTable;  // Assign the new data source
+                       
+                        dgv_khachhang.DataSource = null;  
+                        dgv_khachhang.DataSource = dataTable;  
                     }
                 }
             }
@@ -71,7 +68,7 @@ namespace THBaoMat
             }
             finally
             {
-                // Ensure the database connection is closed if not already done
+                
                 Database.Close_Connect();
             }
         }
@@ -80,36 +77,36 @@ namespace THBaoMat
         {
             try
             {
-                // Use 'using' statement for automatic disposal of resources
+               
                 using (OracleConnection conn = Database.Get_Connect())
                 {
                     OracleCommand cmd = new OracleCommand("LoadKhachHang", conn);
                     cmd.CommandType = CommandType.StoredProcedure;
 
-                    // Set up the output parameter for the stored procedure
+                    
                     cmd.Parameters.Add("result", OracleDbType.RefCursor).Direction = ParameterDirection.Output;
 
-                    // Use OracleDataAdapter to fill the data table
+                    
                     using (OracleDataAdapter adapter = new OracleDataAdapter(cmd))
                     {
                         DataTable dataTable = new DataTable();
                         adapter.Fill(dataTable);
 
-                        // Check if the SDT_KH column exists and apply encryption
+                        
                         if (dataTable.Columns.Contains("SDT_KH"))
                         {
                             foreach (DataRow row in dataTable.Rows)
                             {
                                 string originalPhone = row["SDT_KH"].ToString();
 
-                                // Encrypt the phone number with the provided key
+                            
                                 row["SDT_KH"] = RSADecrypt(originalPhone, d, n);
                             }
                         }
 
-                        // Update the DataGridView with the encrypted data
-                        dgv_khachhang.DataSource = null;  // Reset the DataSource
-                        dgv_khachhang.DataSource = dataTable;  // Assign the new data source
+                       
+                        dgv_khachhang.DataSource = null;  
+                        dgv_khachhang.DataSource = dataTable;  
                     }
                 }
             }
@@ -119,7 +116,7 @@ namespace THBaoMat
             }
             finally
             {
-                // Ensure the database connection is closed if not already done
+               
                 Database.Close_Connect();
             }
         }
@@ -322,6 +319,54 @@ namespace THBaoMat
             return result;
         }
 
+        private void rd_btnDe_CheckedChanged(object sender, EventArgs e)
+        {
 
+        }
+
+        private void rd_btnEn_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgv_khachhang_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void txt_d_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_e_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_n1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

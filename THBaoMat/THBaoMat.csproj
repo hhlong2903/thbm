@@ -33,7 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL" />
+    <Reference Include="Oracle.DataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64" />
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -91,6 +92,12 @@
     <Compile Include="MaHoaCong_Database.Designer.cs">
       <DependentUpon>MaHoaCong_Database.cs</DependentUpon>
     </Compile>
+    <Compile Include="MaHoaLai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaHoaLai.Designer.cs">
+      <DependentUpon>MaHoaLai.cs</DependentUpon>
+    </Compile>
     <Compile Include="MaHoaNhan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +123,19 @@
     </Compile>
     <Compile Include="RSA.Designer.cs">
       <DependentUpon>RSA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RSACrypto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RSACrypto.Designer.cs">
+      <DependentUpon>RSACrypto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RSAOracle.cs" />
+    <Compile Include="RSA_Database.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RSA_Database.Designer.cs">
+      <DependentUpon>RSA_Database.cs</DependentUpon>
     </Compile>
     <Compile Include="Sanpham.cs">
       <SubType>Form</SubType>
@@ -158,6 +178,9 @@
     <EmbeddedResource Include="MaHoaCong_Database.resx">
       <DependentUpon>MaHoaCong_Database.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MaHoaLai.resx">
+      <DependentUpon>MaHoaLai.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MaHoaNhan.resx">
       <DependentUpon>MaHoaNhan.cs</DependentUpon>
     </EmbeddedResource>
@@ -179,6 +202,12 @@
     </Compile>
     <EmbeddedResource Include="RSA.resx">
       <DependentUpon>RSA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RSACrypto.resx">
+      <DependentUpon>RSACrypto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RSA_Database.resx">
+      <DependentUpon>RSA_Database.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sanpham.resx">
       <DependentUpon>Sanpham.cs</DependentUpon>

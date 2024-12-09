@@ -17,7 +17,7 @@ namespace THBaoMat
         {
             InitializeComponent();
         }
-      
+
         public void openChildForm(Form childForm)
         {
             if (currentFormChild != null)
@@ -72,7 +72,7 @@ namespace THBaoMat
 
         private void btn_maHoaLai_Click(object sender, EventArgs e)
         {
-
+            openChildForm(new MaHoaLai());
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -83,6 +83,16 @@ namespace THBaoMat
         private void btn_TaoKhoaRSA_Click(object sender, EventArgs e)
         {
             openChildForm(new TaoKhoaRSA());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            openChildForm(new RSACrypto());
+        }
+
+        private void btn_RSADB_Click(object sender, EventArgs e)
+        {
+            openChildForm(new RSA_Database());
         }
     }
 }
