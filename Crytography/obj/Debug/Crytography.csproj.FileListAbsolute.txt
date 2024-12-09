@@ -1,0 +1,6 @@
+C:\Users\hhl27\Desktop\thbm\Crytography\bin\Debug\Crytography.dll
+C:\Users\hhl27\Desktop\thbm\Crytography\bin\Debug\Crytography.pdb
+C:\Users\hhl27\Desktop\thbm\Crytography\obj\Debug\Crytography.csproj.AssemblyReference.cache
+C:\Users\hhl27\Desktop\thbm\Crytography\obj\Debug\Crytography.csproj.CoreCompileInputs.cache
+C:\Users\hhl27\Desktop\thbm\Crytography\obj\Debug\Crytography.dll
+C:\Users\hhl27\Desktop\thbm\Crytography\obj\Debug\Crytography.pdb

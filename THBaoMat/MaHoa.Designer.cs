@@ -31,6 +31,10 @@ namespace THBaoMat
         {
             this.content_panel = new System.Windows.Forms.Panel();
             this.main_panel = new System.Windows.Forms.Panel();
+            this.btn_RSADB = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btn_TaoKhoaRSA = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.btn_maHoaLai = new System.Windows.Forms.Button();
             this.btn_DESFile = new System.Windows.Forms.Button();
             this.btn_DES = new System.Windows.Forms.Button();
@@ -39,21 +43,21 @@ namespace THBaoMat
             this.btn_maHoaCongDB = new System.Windows.Forms.Button();
             this.btn_maHoaNhanDB = new System.Windows.Forms.Button();
             this.btn_maHoaCong = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btn_TaoKhoaRSA = new System.Windows.Forms.Button();
             this.main_panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // content_panel
             // 
             this.content_panel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.content_panel.Location = new System.Drawing.Point(153, 4);
+            this.content_panel.Location = new System.Drawing.Point(307, 4);
             this.content_panel.Name = "content_panel";
-            this.content_panel.Size = new System.Drawing.Size(1281, 657);
+            this.content_panel.Size = new System.Drawing.Size(1127, 657);
             this.content_panel.TabIndex = 3;
             // 
             // main_panel
             // 
+            this.main_panel.Controls.Add(this.btn_RSADB);
+            this.main_panel.Controls.Add(this.button2);
             this.main_panel.Controls.Add(this.btn_TaoKhoaRSA);
             this.main_panel.Controls.Add(this.button1);
             this.main_panel.Controls.Add(this.btn_maHoaLai);
@@ -70,6 +74,46 @@ namespace THBaoMat
             this.main_panel.Size = new System.Drawing.Size(1437, 664);
             this.main_panel.TabIndex = 3;
             // 
+            // btn_RSADB
+            // 
+            this.btn_RSADB.Location = new System.Drawing.Point(3, 334);
+            this.btn_RSADB.Name = "btn_RSADB";
+            this.btn_RSADB.Size = new System.Drawing.Size(146, 60);
+            this.btn_RSADB.TabIndex = 12;
+            this.btn_RSADB.Text = "Mã hóa RSA DB";
+            this.btn_RSADB.UseVisualStyleBackColor = true;
+            this.btn_RSADB.Click += new System.EventHandler(this.btn_RSADB_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(155, 268);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(146, 60);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "RSA Crypto";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // btn_TaoKhoaRSA
+            // 
+            this.btn_TaoKhoaRSA.Location = new System.Drawing.Point(155, 334);
+            this.btn_TaoKhoaRSA.Name = "btn_TaoKhoaRSA";
+            this.btn_TaoKhoaRSA.Size = new System.Drawing.Size(146, 60);
+            this.btn_TaoKhoaRSA.TabIndex = 10;
+            this.btn_TaoKhoaRSA.Text = "Tạo khoá RSA";
+            this.btn_TaoKhoaRSA.UseVisualStyleBackColor = true;
+            this.btn_TaoKhoaRSA.Click += new System.EventHandler(this.btn_TaoKhoaRSA_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(155, 202);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(146, 60);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Tìm số nghịch đảo";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // btn_maHoaLai
             // 
             this.btn_maHoaLai.Location = new System.Drawing.Point(3, 466);
@@ -82,7 +126,7 @@ namespace THBaoMat
             // 
             // btn_DESFile
             // 
-            this.btn_DESFile.Location = new System.Drawing.Point(3, 400);
+            this.btn_DESFile.Location = new System.Drawing.Point(155, 400);
             this.btn_DESFile.Name = "btn_DESFile";
             this.btn_DESFile.Size = new System.Drawing.Size(146, 60);
             this.btn_DESFile.TabIndex = 7;
@@ -92,7 +136,7 @@ namespace THBaoMat
             // 
             // btn_DES
             // 
-            this.btn_DES.Location = new System.Drawing.Point(3, 334);
+            this.btn_DES.Location = new System.Drawing.Point(3, 400);
             this.btn_DES.Name = "btn_DES";
             this.btn_DES.Size = new System.Drawing.Size(146, 60);
             this.btn_DES.TabIndex = 6;
@@ -150,26 +194,6 @@ namespace THBaoMat
             this.btn_maHoaCong.UseVisualStyleBackColor = true;
             this.btn_maHoaCong.Click += new System.EventHandler(this.btn_maHoaCong_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(3, 532);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(146, 60);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Tìm số nghịch đảo";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btn_TaoKhoaRSA
-            // 
-            this.btn_TaoKhoaRSA.Location = new System.Drawing.Point(3, 598);
-            this.btn_TaoKhoaRSA.Name = "btn_TaoKhoaRSA";
-            this.btn_TaoKhoaRSA.Size = new System.Drawing.Size(146, 60);
-            this.btn_TaoKhoaRSA.TabIndex = 10;
-            this.btn_TaoKhoaRSA.Text = "Tạo khoá RSA";
-            this.btn_TaoKhoaRSA.UseVisualStyleBackColor = true;
-            this.btn_TaoKhoaRSA.Click += new System.EventHandler(this.btn_TaoKhoaRSA_Click);
-            // 
             // MaHoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -197,5 +221,7 @@ namespace THBaoMat
         private System.Windows.Forms.Button btn_RSA;
         private System.Windows.Forms.Button btn_TaoKhoaRSA;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_RSADB;
     }
 }

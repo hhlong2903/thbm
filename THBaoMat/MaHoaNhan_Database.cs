@@ -98,7 +98,7 @@ namespace THBaoMat
 
         private void FormClosing(object sender, FormClosingEventArgs e)
         {
-            conn?.Dispose();
+            //conn?.Dispose();
         }
 
         private void rd_btnEn_CheckedChanged(object sender, EventArgs e)
@@ -215,6 +215,9 @@ namespace THBaoMat
                 return -1; // Trả về -1 nếu có lỗi
             }
         }
+
+
+        
 
 
     }

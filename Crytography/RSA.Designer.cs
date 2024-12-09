@@ -96,7 +96,6 @@ namespace THBaoMat
             this.rd_btnDe.TabStop = true;
             this.rd_btnDe.Text = "Decrypt";
             this.rd_btnDe.UseVisualStyleBackColor = true;
-            this.rd_btnDe.CheckedChanged += new System.EventHandler(this.rd_btnDe_CheckedChanged);
             // 
             // rd_btnEn
             // 
@@ -108,7 +107,6 @@ namespace THBaoMat
             this.rd_btnEn.TabStop = true;
             this.rd_btnEn.Text = "Encrypt";
             this.rd_btnEn.UseVisualStyleBackColor = true;
-            this.rd_btnEn.CheckedChanged += new System.EventHandler(this.rd_btnEn_CheckedChanged);
             // 
             // label3
             // 
@@ -118,7 +116,6 @@ namespace THBaoMat
             this.label3.Size = new System.Drawing.Size(47, 17);
             this.label3.TabIndex = 41;
             this.label3.Text = "Action";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // dgv_khachhang
             // 
@@ -129,7 +126,6 @@ namespace THBaoMat
             this.dgv_khachhang.RowTemplate.Height = 24;
             this.dgv_khachhang.Size = new System.Drawing.Size(787, 432);
             this.dgv_khachhang.TabIndex = 38;
-            this.dgv_khachhang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_khachhang_CellContentClick);
             // 
             // txt_d
             // 
@@ -138,7 +134,6 @@ namespace THBaoMat
             this.txt_d.Name = "txt_d";
             this.txt_d.Size = new System.Drawing.Size(55, 22);
             this.txt_d.TabIndex = 53;
-            this.txt_d.TextChanged += new System.EventHandler(this.txt_d_TextChanged);
             // 
             // txt_e
             // 
@@ -147,7 +142,6 @@ namespace THBaoMat
             this.txt_e.Name = "txt_e";
             this.txt_e.Size = new System.Drawing.Size(56, 22);
             this.txt_e.TabIndex = 52;
-            this.txt_e.TextChanged += new System.EventHandler(this.txt_e_TextChanged);
             // 
             // label5
             // 
@@ -157,7 +151,6 @@ namespace THBaoMat
             this.label5.Size = new System.Drawing.Size(16, 17);
             this.label5.TabIndex = 51;
             this.label5.Text = "d";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -167,7 +160,6 @@ namespace THBaoMat
             this.label6.Size = new System.Drawing.Size(16, 17);
             this.label6.TabIndex = 50;
             this.label6.Text = "e";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // txt_n1
             // 
@@ -176,17 +168,15 @@ namespace THBaoMat
             this.txt_n1.Name = "txt_n1";
             this.txt_n1.Size = new System.Drawing.Size(57, 22);
             this.txt_n1.TabIndex = 49;
-            this.txt_n1.TextChanged += new System.EventHandler(this.txt_n1_TextChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(26, 76);
+            this.label4.Location = new System.Drawing.Point(9, 73);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(16, 17);
+            this.label4.Size = new System.Drawing.Size(41, 17);
             this.label4.TabIndex = 48;
-            this.label4.Text = "n";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.label4.Text = " Φ(n)";
             // 
             // RSA
             // 
